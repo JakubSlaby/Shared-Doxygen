@@ -1,0 +1,53 @@
+/**
+Extension to Doxygen Awesome https://github.com/jothepro/doxygen-awesome-css
+*/
+
+/* .groupheader
+{
+    box-shadow: none !important;
+} */
+
+
+.classindex dl.classindex dd
+{
+    font-size: 0;
+}
+
+.classindex dl.classindex dd a:nth-of-type(1)
+{
+    font-size: var(--page-font-size);
+    line-height: var(--table-line-height);
+}
+.classindex dl.classindex dd a:nth-of-type(2)
+{
+    display: none;
+}
+
+.icon.icon-class
+{
+    background-color: #479f76;
+}
+.icon.icon-namespace
+{
+    background-color: #adb5bd;
+}
+.icon.icon-interface
+{
+    background-color: #8c68cd;
+}
+
+.title .package
+{
+    font-size: 50%;
+    display: block;
+}
+
+div.zoom .node
+{
+    display: none;
+}
+
+text
+{
+    display: none;
+}
